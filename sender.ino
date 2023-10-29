@@ -17,7 +17,7 @@ MqttClient mqttClient(wifi_client);
 // MQTT credentials
 const char BROKER[] = "BROKER.mqttdashboard.com";
 int PORT_NO = 1883;
-const char TOPIC[] = "SIT210/waves";
+const char TOPIC[] = "SIT210-wave";
 const long INTERVAL = 1000;
 unsigned long previous_milli = 0;
 int count = 0;
