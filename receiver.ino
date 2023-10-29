@@ -15,7 +15,7 @@ MqttClient mqttClient(wifi_Client);
 //MQTT credentials
 const char BROKER[] = "mqtt-dashboard.com";
 int       PORT_NO    = 1883;
-const char TOPIC] = "Sanchit-wave";
+const char TOPIC] = "SIT210-wave";
 
 //setup procedure which will run once to set things
 void setup() {
